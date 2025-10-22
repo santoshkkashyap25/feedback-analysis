@@ -51,10 +51,17 @@ coverage.xml
 .pytest_cache/
 cover/
 
+# Ignore large or generated files
+Reviews.csv.zip
+benchmark_report.txt
+kaggle.json
+*.csv
+*.pkl
+docker/
 # Translations
 *.mo
 *.pot
-
+*.db
 # Django stuff:
 *.log
 local_settings.py
